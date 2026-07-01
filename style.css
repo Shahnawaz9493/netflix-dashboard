@@ -1,0 +1,134 @@
+/* =========================
+   GLOBAL THEME
+========================= */
+body {
+    background-color: #0e1117;
+    color: #ffffff;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* =========================
+   MAIN TITLE
+========================= */
+h1 {
+    text-align: center;
+    color: #e50914;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   SUBHEADINGS
+========================= */
+h2, h3 {
+    color: #ffffff;
+    border-left: 4px solid #e50914;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #141414, #0e1117);
+    border-right: 1px solid #222;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ffffff;
+}
+
+/* Sidebar headers */
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2 {
+    color: #e50914;
+}
+
+/* =========================
+   METRIC CARDS
+========================= */
+div[data-testid="metric-container"] {
+    background: linear-gradient(145deg, #1c1c1c, #141414);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+div[data-testid="metric-container"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(229, 9, 20, 0.3);
+}
+
+/* Metric values */
+div[data-testid="metric-container"] label {
+    color: #aaa;
+}
+
+/* =========================
+   BUTTONS & CONTROLS
+========================= */
+button {
+    background-color: #e50914 !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: none !important;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #b00610 !important;
+    transform: scale(1.02);
+}
+
+/* =========================
+   DATAFRAME TABLE
+========================= */
+div[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+/* Table header */
+thead tr th {
+    background-color: #e50914 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Table rows */
+tbody tr {
+    background-color: #141414;
+}
+
+tbody tr:hover {
+    background-color: #1f1f1f;
+}
+
+/* =========================
+   PLOTLY CHART CONTAINER
+========================= */
+.js-plotly-plot {
+    border-radius: 15px;
+    background-color: #141414;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* =========================
+   SLIDERS
+========================= */
+.stSlider > div > div {
+    color: white;
+}
+
+/* =========================
+   MULTISELECT DROPDOWN
+========================= */
+div[data-baseweb="select"] {
+    background-color: #141414;
+    border-radius: 8px;
+}
