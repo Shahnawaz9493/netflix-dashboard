@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/github/stars/your-username/netflix-data-analysis?style=flat-square&color=yellow" />
 </p>
 
-**[View Demo](#-screenshots) · [Report Bug](../../issues) · [Request Feature](../../issues)**
+**[View Demo](https://netflix-dashboard-4cdumxgbehyzbbchyojxdc.streamlit.app/) · [Report Bug](../../issues) · [Request Feature](../../issues)**
 
 </div>
 
